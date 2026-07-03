@@ -2,7 +2,7 @@
 
 A Python library for parsing and working with the Abstract Syntax Tree (AST) output of the [Solc](https://github.com/ethereum/solidity) compiler or any compiled solidity files.
 
-## Table of Contents
+> ## Table of Contents
 
 - [Py-Solidity-AST](#py-solidity-ast)
   - [Table of Contents](#table-of-contents)
@@ -17,7 +17,7 @@ A Python library for parsing and working with the Abstract Syntax Tree (AST) out
   - [Credits](#credits)
   - [License](#license)
 
-## Features 🧑‍💻
+> ## Features 🧑‍💻
 
 - [x] Parse Solidity AST JSON output
 - [x] Filter and search through nodes
@@ -33,7 +33,7 @@ You can install the latest release via `pip`:
 $ pip install py-solidity-ast
 ```
 
-## Usage 💻
+> ## Usage 💻
 
 First, use [py-solc-x](https://github.com/iamdefinitelyahuman/py-solc-x) to compile your contracts to the [standard JSON output format](https://solidity.readthedocs.io/en/latest/using-the-compiler.html#output-description).
 
