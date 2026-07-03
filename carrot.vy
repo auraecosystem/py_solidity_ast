@@ -18,6 +18,24 @@ def doesEat(food: String[30], qty: uint256) -> bool:
     @param qty The number of food items to evaluate
     @return True if Bugs will eat it, False otherwise
     """
+node
+# the current node is a FunctinoDefinition node with the name 'mul'
+# output: <FunctionDefinition iterable 'mul'>
+
+node.name
+# output: "mul"
+
+node.depth  # Number of nodes between this node and the SourceUnit
+# output: 2
+
+node.src  # The 'src' information of the node "start:length:1"
+# output: "4948:1477:1"
+
+node.contract_id  # Contract ID as given by the standard compiler JSON
+# output: 2
+
+node.fields  # List of fields for this node
+['baseNodeType', 'documentation', 'id', 'implemented', 'kind', 'modifiers', 'name', 'nodeType', 'nodes', 'parameters', 'returnParameters', 'scope', 'src', 'stateMutability', 'superFunction', 'visibility']
 
 source_node
 # output: <SourceUnit iterable 'contracts/math/SafeMath.sol'>
