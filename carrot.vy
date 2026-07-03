@@ -52,3 +52,6 @@ success, child = contract_node.child_has_attributes({'nodeType': "Identifier", "
 
 child.extract_code(source_code, loc=True)
 # output: 99: require(success, "RdpxReserve: transfer failed");
+node.child_has_attributes({'nodeType': "Identifier", "expression.name": "require"})
+
+# output: True, <Identifier object 'require'>
