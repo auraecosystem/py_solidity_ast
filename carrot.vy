@@ -55,3 +55,9 @@ child.extract_code(source_code, loc=True)
 node.child_has_attributes({'nodeType': "Identifier", "expression.name": "require"})
 
 # output: True, <Identifier object 'require'>
+node = s['Token']['transfer']
+node.children(
+    include_children=False,
+    filters={'nodeType': "FunctionCall", "expression.name": "require"}
+)
+# output: [<FunctionCall>]
