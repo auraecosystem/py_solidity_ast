@@ -18,3 +18,27 @@ def doesEat(food: String[30], qty: uint256) -> bool:
     @param qty The number of food items to evaluate
     @return True if Bugs will eat it, False otherwise
     """
+
+source_node
+# output: <SourceUnit iterable 'contracts/math/SafeMath.sol'>
+
+source_node.nodes
+# output: [<PragmaDirective object>, <ContractDefinition iterable 'SafeMath'>]
+
+source_node[1]
+# output: <ContractDefinition iterable 'SafeMath'>
+
+source_node['SafeMath']
+# output: <ContractDefinition iterable 'SafeMath'>
+
+source_node['SafeMath'].fields
+['baseContracts', 'children', 'contractDependencies', 'contractKind', 'contract_id', 'dependencies', 'depth', 'documentation', 'fullyImplemented', 'id', 'is_child_of', 'is_parent_of', 'keys', 'libraries', 'linearizedBaseContracts', 'name', 'nodeType', 'nodes', 'offset', 'parent', 'parents', 'scope', 'src']
+
+source_node['SafeMath'].nodes
+[<FunctionDefinition iterable 'add'>, <FunctionDefinition iterable 'sub'>, <FunctionDefinition iterable 'mul'>, # output: <FunctionDefinition iterable 'div'>, <FunctionDefinition iterable 'mod'>]
+
+source_node['SafeMath']['mul']
+# output: # output: <FunctionDefinition iterable 'mul'>
+
+source_node['SafeMath']['mul']
+# output: [<IfStatement object>, <VariableDeclarationStatement object>, <FunctionCall object>, <Return object>]
